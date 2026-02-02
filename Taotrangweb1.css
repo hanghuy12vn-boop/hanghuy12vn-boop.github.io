@@ -221,6 +221,6 @@ nav a.active {
 .contact-form button:hover {
     background-color: #3e8e41;
 }
-
+a {text-decoration: none;}
 
 
