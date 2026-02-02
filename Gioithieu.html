@@ -49,10 +49,11 @@
     padding: 0;
 }
 header {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: goldenrod;
     text-align: center;
-    padding: 34px 10px;
+    padding: 31px 10px;
+    font-size: 30px;
 }
 nav {
     background-color: #333;
@@ -76,7 +77,13 @@ nav a.active {
 }
 body {
     margin: 0;
-    font-family: Arial;  
+    font-family: Arial;
+    background: linear-gradient(
+        135deg,
+        #fff1c1,
+        #ffd6a0,
+        #ffb3a7
+    );  
 }
 footer {
     background-color: #333;
@@ -85,13 +92,22 @@ footer {
     padding: 15px;
 }
 main {padding: 20px}
+.trangchu {
+    background: linear-gradient(
+        135deg,
+        #fff1c1,
+        #ffd6a0,
+        #ffb3a7
+    );
+}
+
 </style>
 
 </head>
 <body>
 <header>
         <h2>👥 Thành viên tổ 4</h2>
-        <p>Chủ đề: Ngày Phụ nữ Việt Nam 20/10</p>
+        <p>Hình ảnh thành viên</p>
 </header>
 <nav>
     <a href="index.html">Trang chủ</a>
@@ -100,8 +116,8 @@ main {padding: 20px}
     <a href="gocsangtac.html">Góc sáng tác</a>
     <a href="lienhe.html">Liên hệ</a>
 </nav>
-<main>
-<section class="momanto4">
+<main class="trangchu">
+<section class="momanto4 trangchu">
     <div class="anhto4">
         <div class="thanhvien"><img src="que.jpg" alt="ảnh lỗi"></div>
         <div class="thanhvien"><img src="my.jpg" alt="ảnh lỗi"></div>
@@ -114,6 +130,8 @@ main {padding: 20px}
         <div class="thanhvien"><img src="an123.jpg" alt="ảnh lỗi"></div>
         <div class="thanhvien"><img src="linh.jpg" alt="ảnh lỗi"></div>
         <div class="thanhvien"><img src="huy.jpg" alt="ảnh lỗi"></div>
+        <div class="thanhvien"><img src="minhthu.jpg" alt="ảnh lỗi"></div>
+
     </div>
     <ul class="thongtin">
         <li>Tổ trưởng: Nguyễn Tuấn Kiệt</li>
